@@ -1,0 +1,20 @@
+.content-item{
+    list-style: none;
+}
+.bg-nav{
+    background-color: #3b5998;
+}
+.bg-content{
+    background-color: #F7F4F5;
+}
+
+.drawer-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item{
+    padding: .50em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:  sans-serif;
+}
