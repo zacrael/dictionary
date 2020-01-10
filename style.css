@@ -14,9 +14,10 @@
 }
 
 .item{
-    padding-left: .50em;
+    padding-left: .5em;
     font-size: 1em;
     font-weight: bold;
     font-family:  sans-serif;
     line-height: normal;
+    align-self: center;
 }
