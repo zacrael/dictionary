@@ -1,5 +1,6 @@
 .definition-h2{
-  
+    padding-top: 1em;
+    padding-bottom: 1em;
     align-self: center;
     font-weight: 500;
 }
