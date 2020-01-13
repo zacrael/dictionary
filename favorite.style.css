@@ -1,0 +1,47 @@
+.definition-h2{
+    padding-top: 1em;
+    padding-bottom: .25em;
+    align-self: center;
+    font-weight: 500;
+}
+
+
+.content-item{
+    list-style: none;
+}
+.bg-nav{
+    background-color: #3b5998;
+}
+.bg-content{
+    background-color: #F7F4F5;
+}
+
+.drawer-item:hover{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.item{
+    padding-left: .5em;
+    font-size: 1em;
+    font-weight: bold;
+    font-family:  sans-serif;
+    line-height: normal;
+    align-self: center;
+}
+
+.p-definition{
+    padding-left: 1em;
+    padding-right: 1em;
+  
+    font-family:  sans-serif;
+    line-height: 1;
+   
+}
+.p-definition-long-para{
+  
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-family:  sans-serif;
+
+   
+}

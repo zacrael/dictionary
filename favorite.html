@@ -1,0 +1,144 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet"   href="favorite.style.css" >
+    <!-- Latest compiled and minified CSS -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-material-design@4.1.1/dist/css/bootstrap-material-design.min.css" integrity="sha384-wXznGJNEXNG1NFsbm0ugrLFMQPWswR3lds2VeinahP8N0zJw9VWSopbjv2x7WCvX" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <!---->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js" integrity="sha384-fA23ZRQ3G/J53mElWqVJEGJzU0sTs+SvzG8fXVWP+kJQ1lwFAOkcUOysnlKJC33U" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js" integrity="sha384-CauSuKpEqAFajSpkdjv3z9t8E7RlpJ1UP0lKM/+NdtSarroVKu069AlsRPKkFBz9" crossorigin="anonymous"></script>
+<script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
+    <!---->
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!--jquery toggle when its load -->
+    <!-- <script>
+        $(document).ready(function(){
+            $("#child-tuition").toggle();
+            $("#child-auto").toggle();
+            $("#child-revenue").toggle()
+        });
+        </script> -->
+
+        <!---->
+        <!--toggle to hide and show  drawer-->
+        <!-- <script>
+            $(document).ready(function(){
+                $("#tuition").click(function(){
+                        $("#child-tuition").toggle()
+                    });
+                });
+            </script> -->
+</head>
+<body>
+   
+    <div class="bmd-layout-container bmd-drawer-f-l bmd-drawer-overlay " >
+        <header class="bmd-layout-header ">
+          <div class="navbar navbar-light bg-nav ">
+            <button class="navbar-toggler  text-light " type="button" data-toggle="drawer" data-target="#dw-p1">
+              <span class="sr-only"></span>
+              <i class="material-icons">menu</i>
+            </button>
+            <span class=" text-light"> Favorite</span>
+            <ul class="nav navbar-nav  d-flex flex-row ">
+                <li class="nav-item "><a href="index.html"class="material-icons text-light">home</a></li>
+                <li class="nav-item"><a href="#"class="material-icons  text-light pl-3 pr-3">favorite </a></li>
+                <li class="nav-item"><a href="#"class="material-icons text-light">history </a></li>
+                <li class="nav-item"><a href="#"class="material-icons text-light pl-3">more_vert </a></li>
+            </ul>
+               
+          </div>
+        </header>
+        <div id="dw-p1" class="bmd-layout-drawer bg-white ">
+          <header class="bg-nav p-3 ">
+                    <div class="d-flex "> 
+                         <img src="book.png" alt="orange" class="w-50 h-50 pl-4"> 
+                         <span class=" pl-3 align-self-center text-light ">WithCenter DevTeam</span>
+                        
+                        </div>
+                
+                <span class="navbar-brand pb-3 text-light">English Dictionary</span>
+             
+             
+          </header>
+          <ul class="list-group pl-0">
+            <a  href ="index.html" class="list-group-item material-icons pl-4  drawer-item text-dark ">home <span class="pl-3"> HOME</span></a>
+            <a href ="#" class="list-group-item material-icons pl-4 text-dark drawer-item">favorite <span class="pl-3"> FAVORITE</span></a>
+            <a  href ="#"class="list-group-item material-icons pl-4 text-dark drawer-item ">history <span class="pl-3">  HISTORY</span></a>
+            <a  href ="#" class="list-group-item material-icons pl-4 text-dark drawer-item">settings_applications<span class="pl-3"> SETTINGS</span></a>
+            <hr>
+          </ul>
+        
+        </div>
+        
+        <main class="bmd-layout-content  ">
+            <div class="container-fluid bg-nav pb-5 pt-3" >
+            <!-- main content -->
+         
+            
+
+          
+          
+             <card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">Favorite</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">history</p> 
+             </card>
+             <card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">Favorite</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">history</p> 
+             </card><card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">Favorite</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">history</p> 
+             </card><card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">Favorite</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">history</p> 
+             </card><card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">Favorite</p> 
+             </card>
+             <card class="card rounded  p-2  mb-3  ">
+                <p class=" p-definition-long-para">history</p> 
+             </card><card class="card rounded  p-2 mb-3 ">
+                <p class=" p-definition-long-para">Administrator</p> 
+             </card>
+         
+          </div>
+        </main>
+      </div>
+   
+</body>
+<!-- <li class="pt-1 pb-1">Administrator</li>
+                <li class="pt-1 pb-1">favorite </li>
+                <li class="pt-1 pb-1">history </li>
+                <li class="pt-1 pb-1">more_vert </li> -->
+</html>
